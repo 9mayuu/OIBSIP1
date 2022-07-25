@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    font-family: 'Poppins', sans-serif !important;
+    background-image: url("C:\Users\KOMAL KHARAT\Desktop\Chadwick_boseman\bgimg.jpg");
+    background-position: center;
+    background-color: #cccccc;
+}
+.promo-title{
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 70px;
+    color:#080707
+}
+.btn-primary{
+    box-shadow: none !important;
+    padding: 8px 25px;
+    border-radius: 2px !important;
+    border: 2px solid #fff8f8 !important;
+    color: #080808 !important;
+    background: #abababf5 !important;
+
+}
+.btn-primary:hover{
+    background: #636262f5 !important;
+    color: rgb(0, 0, 0) !important;
+    border: 2px solid rgb(154, 154, 154) !important;
+}
+
+#life{
+    padding: 40px 0;
+    color: #fff6f6;
+}
+.title::before{
+    content: '';
+    background: #fffefe;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 50px;
+    transform: translateY(46px);
+}
+ul{
+    list-style-type: none;
+    font-weight: lighter;
+}
+ul li{
+    padding: 3px;
+    font-weight: 300;
+    color: rgb(255, 252, 252);
+}
